@@ -1,0 +1,432 @@
+@charset "utf-8";
+
+/* CSS Document */
+
+.body {
+  background: #023047;
+  font-family: "montserratregular";
+  overflow-x: hidden;
+  background: url(../../assets/auth/grid.jpg) no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.margin2 {
+  margin-top: 50px;
+}
+
+.left_box {
+  background: #fff;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+}
+
+.right_box {
+  background: #fb8500;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+
+.right_box img {
+}
+
+.main_c {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.inner_left {
+}
+
+.inner_right {
+  padding: 15px 30px 0 30px;
+}
+
+.coupon {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.sign_in_div img {
+  width: auto;
+}
+
+.submit3 {
+  width: 100%;
+  height: 52px;
+  background: #ffb703;
+  color: #000;
+  margin: 6px auto 6px auto;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 22px;
+}
+
+.sign_row {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.sign_row h2 {
+  text-align: center;
+  color: #000;
+  margin: 0 0 20px 0;
+  padding-top: 4px;
+  border-top: 1px solid #d0d0d0;
+}
+
+.zig {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  z-index: 9;
+}
+
+.material .form-radio,
+.material .form-group {
+  position: relative;
+  margin-top: 30px;
+  margin-bottom: 2.25rem;
+}
+
+.material .form-inline > .form-group,
+.material .form-inline > .btn {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.material .form-group input {
+  height: 1.9rem;
+}
+
+.material .form-group textarea {
+  resize: none;
+}
+
+.material .form-group .control-label {
+  position: absolute;
+  top: -0.35rem;
+  pointer-events: none;
+  padding-left: 0.125rem;
+  z-index: 1;
+  color: #000;
+  font-size: 15px;
+  font-weight: normal;
+  -webkit-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+}
+
+.material .form-group .bar {
+  position: relative;
+  border-bottom: 0.0625rem solid #999;
+  display: block;
+}
+
+.material .form-group .bar::before {
+  content: "";
+  height: 0.125rem;
+  width: 0;
+  left: 50%;
+  bottom: -0.0625rem;
+  position: absolute;
+  background: #337ab7;
+  -webkit-transition: left 0.28s ease, width 0.28s ease;
+  transition: left 0.28s ease, width 0.28s ease;
+  z-index: 2;
+}
+
+.material .form-group input,
+.material .form-group textarea {
+  display: block;
+  background: none;
+  padding: 0.125rem 0.125rem 0.0625rem;
+  font-size: 16px;
+  border-width: 0;
+  border-color: transparent;
+  line-height: 1.9;
+  width: 100%;
+  color: transparent;
+  -webkit-transition: all 0.28s ease;
+  transition: all 0.28s ease;
+  box-shadow: none;
+}
+
+.material .form-group input[type="file"] {
+  line-height: 1;
+}
+
+.material .form-group input[type="file"] ~ .bar {
+  display: none;
+}
+
+.material .form-group select,
+.material .form-group input:focus,
+.material .form-group input:valid,
+.material .form-group input.form-file,
+.material .form-group input.has-value,
+.material .form-group textarea:focus,
+.material .form-group textarea:valid,
+.material .form-group textarea.form-file,
+.material .form-group textarea.has-value {
+  color: #333;
+}
+
+.material .form-group select ~ .control-label,
+.material .form-group input:focus ~ .control-label,
+.material .form-group input:valid ~ .control-label,
+.material .form-group input.form-file ~ .control-label,
+.material .form-group input.has-value ~ .control-label,
+.material .form-group textarea:focus ~ .control-label,
+.material .form-group textarea:valid ~ .control-label,
+.material .form-group textarea.form-file ~ .control-label,
+.material .form-group textarea.has-value ~ .control-label {
+  font-size: 12px;
+  color: gray;
+  top: -23px;
+  left: 0;
+}
+
+.material .form-group select:focus,
+.material .form-group input:focus,
+.material .form-group textarea:focus {
+  outline: none;
+}
+
+.material .form-group select:focus ~ .control-label,
+.material .form-group input:focus ~ .control-label,
+.material .form-group textarea:focus ~ .control-label {
+  color: #337ab7;
+}
+
+.material .form-group select:focus ~ .bar::before,
+.material .form-group input:focus ~ .bar::before,
+.material .form-group textarea:focus ~ .bar::before {
+  width: 100%;
+  left: 0;
+}
+
+.material .checkbox label,
+.material .form-radio label {
+  position: relative;
+  cursor: pointer;
+  padding-left: 2rem;
+  text-align: left;
+  color: #333;
+  display: block;
+}
+
+.material .checkbox input,
+.material .form-radio input {
+  width: auto;
+  opacity: 0.00000001;
+  position: absolute;
+  left: 0;
+}
+
+.material h6 {
+  font-size: 14px;
+}
+
+#owl-demo2 {
+  margin-top: 15px;
+}
+
+#owl-demo2 .item {
+  padding: 0px 0px;
+  margin: 10px 10px;
+  color: #000;
+  text-align: left;
+  overflow: hidden;
+}
+
+.left_box .owl-controls {
+  display: none !important;
+}
+
+#owl-demo2 .item img {
+  border: 2px solid #ffb703;
+  border-radius: 100%;
+}
+
+.tagline {
+  margin-top: 15px;
+}
+
+.tagline h3 {
+  color: #000;
+  font-size: 38px;
+  text-align: center;
+  margin-top: 0;
+}
+
+.tagline h3 span {
+  color: #023047;
+  font-weight: bold;
+}
+
+.tagline img {
+  max-width: 230px;
+}
+
+.reg_btns a {
+  display: inline-block;
+}
+
+.rb1 {
+  text-align: right;
+}
+
+.rb2 {
+  text-align: left;
+}
+
+#owl-demo3 .item {
+  padding: 0px 0px;
+  margin: 0 10px;
+  color: #000;
+  text-align: left;
+  overflow: hidden;
+}
+
+.inner_right .owl-controls {
+  display: none !important;
+}
+
+#owl-demo3 .item img {
+}
+
+.common_height {
+  min-height: 770px;
+}
+
+.mob_visible {
+  display: none;
+}
+
+#owl-demo4 .item {
+  padding: 0px 0px;
+  margin: 0 10px;
+  color: #000;
+  text-align: left;
+  overflow: hidden;
+}
+
+.inner_right .owl-controls {
+  display: none !important;
+}
+
+#owl-demo4 .item img {
+}
+
+.mob_logo_band {
+  display: none;
+}
+
+@media (max-width: 1200px) {
+  .common_height {
+    min-height: 730px;
+  }
+}
+
+@media (max-width: 992px) {
+  .common_height {
+    min-height: auto;
+  }
+  .zig {
+    display: none;
+  }
+  .left_box {
+    border-radius: 0;
+    padding-bottom: 10px;
+    padding-top: 50px;
+  }
+  .right_box {
+    border-radius: 0;
+  }
+  .hide_on_mobile {
+    display: none;
+  }
+  .mob_visible {
+    display: block;
+  }
+  .mob_logo_band {
+    display: block;
+    background: #023047;
+    text-align: center;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+  .mob_logo_band img {
+    max-width: 120px;
+  }
+  .main_c {
+    margin-top: 0;
+  }
+  .wrap_upper {
+    margin-top: 0;
+    display: flex;
+    flex-flow: column;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .first {
+    order: 1;
+  }
+  .second {
+    order: 2;
+  }
+}
+
+@media (max-width: 767px) {
+  .renovation_box img {
+    display: inline-block;
+  }
+  .renovation_box_lower h3 {
+    font-size: 18px;
+  }
+  .cog_hidden {
+    display: none !important;
+  }
+  .renovation_box h2 {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .reg_btns a img {
+    margin-bottom: 10px;
+  }
+  .rb1 {
+    text-align: center;
+  }
+  .rb2 {
+    text-align: center;
+  }
+  .tagline h3 {
+    color: #000;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 0;
+  }
+  .left_box {
+    padding-top: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .main_c {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  #owl-demo2 .item {
+    padding: 0px 0px;
+    margin: 10px 5px;
+    color: #000;
+    text-align: left;
+    overflow: hidden;
+  }
+  #owl-demo2 .item img {
+    max-width: 82px;
+  }
+}
